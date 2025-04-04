@@ -1,3 +1,4 @@
+console.log("Script loaded successfully!");
 // 🔐 Simple password protection
 const correctPassword = "coachonly647";  // Change this as needed
 
