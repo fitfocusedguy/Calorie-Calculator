@@ -3,6 +3,7 @@ console.log("Script loaded successfully!");
 const correctPassword = "coachonly647";  // Change this as needed
 
 function checkPassword() {
+    console.log("checkPassword function is running!");
     let inputPassword = document.getElementById("password-input").value;
     if (inputPassword === correctPassword) {
         document.getElementById("password-screen").style.display = "none";
