@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="passwordPrompt">
+        <h2>Enter Password</h2>
+        <input type="password" id="passwordInput">
+        <button onclick="checkPassword()">Submit</button>
+    </div>
+    
+    <div id="calculator" style="display:none;">
+        <h1>Calorie Calculator</h1>
+        <img src="your-logo.png" alt="Brand Logo">
+        
+        <label for="gender">Gender:</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        
+        <label for="weight">Weight (lbs):</label>
+        <input type="number" id="weight">
+        
+        <label for="activity">Activity Level:</label>
+        <select id="activity">
+            <option value="low">Low (3-4x per week)</option>
+            <option value="moderate">Moderate (4-6x per week)</option>
+            <option value="high">High (6-7x per week)</option>
+        </select>
+        
+        <label for="goal">Goal:</label>
+        <select id="goal">
+            <option value="kino">Kino Split (25/40/35)</option>
+            <option value="strength">Strength & Muscle (40/40/20)</option>
+            <option value="endurance">Athlete/Endurance (30/50/20)</option>
+            <option value="lowcarb">Low Carb (50/20/30)</option>
+            <option value="keto">Keto Adjacent (40/10/50)</option>
+        </select>
+        
+        <button onclick="calculateCalories()">Calculate</button>
+        <div id="results"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
