@@ -1,5 +1,5 @@
 // 🔐 Simple password protection
-const correctPassword = "yourpassword";  // Change this as needed
+const correctPassword = "coachonly647";  // Change this as needed
 
 function checkPassword() {
     let inputPassword = document.getElementById("password-input").value;
